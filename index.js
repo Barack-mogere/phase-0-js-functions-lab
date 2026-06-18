@@ -3,6 +3,11 @@ function calculateTax(amount) {
   return tax;
 }
 
+function convertToUpperCase(text) {
+  return text.toUpperCase();
+}
+
+
 // This is required for the test to function properly
 module.exports = {
   calculateTax,
